@@ -1,6 +1,4 @@
-import torch
 from modules import launch_utils
-device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 tensor = tensor.to(device)
 args = launch_utils.args
 python = launch_utils.python
