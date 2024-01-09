@@ -1,10 +1,5 @@
 import torch
 
-# Check if CUDA is available and if yes, set the default tensor type to cuda
-if torch.cuda.is_available(): 
-    torch.set_default_tensor_type(torch.cuda.FloatTensor)
-
-
 from modules import launch_utils
 
 args = launch_utils.args
